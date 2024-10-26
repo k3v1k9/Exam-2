@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy-Allawi</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="bg-black text-white">
+    <!--start_Slide-Bar-->
+      <section class="nav">
+        <div id="side-menu" class="slide-menu flex fixed z-50 top-0 -left-60">
+          <div id="linkesat" class="nav-menu flex flex-col justify-between h-screen  bg-black p-8 w-3/4">
+            <div class="links">
+              <ul class="text-white font-semibold  overflow-hidden">
+                <li onclick="search()" id="search" class="li-1 cursor-pointer" class="text-white relative cursor-pointer  py-2" width="25px"> Search</li>
+                <li onclick="getCategory()" id="Categories" class="li-2 cursor-pointer" class="text-white relative cursor-pointer  py-2" width="25px"> Categories</li>
+                <li onclick="getArea()" id="Area" class="li-3 cursor-pointer" class="text-white relative cursor-pointer  py-2" width="25px"> Area</li>
+                <li onclick="getIngredients()" id="Ingredients" class="li-4 cursor-pointer" class="text-white relative cursor-pointer  py-2" width="25px"> Ingredients</li>
+                <li onclick="getContact()" id="Contact" class="li-5 cursor-pointer" class="text-white relative cursor-pointer  py-2" width="25px"> Contact Us</li>
+              </ul>
+            </div>
+            <div>
+              <div class="icon text-white">
+                <i class="fa-brands fa-facebook cursor-pointer text-lg pe-1"></i>
+                <i class="fa-brands fa-twitter cursor-pointer text-lg pe-1"></i>
+                <i class="fa-solid fa-globe cursor-pointer text-lg pe-1"></i>
+              </div>
+              <div class="fotter-nav">
+                <p class="text-white pt-2 text-sm">
+                  Copyright Â© 2019 All Rights
+                  <br/>
+                  <br>
+                  Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-between items-center  flex-col bg-white  px-1 py-8 w-1/4 text-black ">
+            <img class="w-12" src="images/logo.png" alt=""/>
+            <i id="closeBtn" class="fa-solid open-close-icon fa-2x fa-align-justify cursor-pointer"></i>
+            <div class="flex flex-col py-2">
+              <i class="fa-solid fa-globe d-block cursor-pointer py-2"></i>
+              <i class="fa-solid fa-share-nodes cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </section>  
+      <!--End_Slide-Bar-->
+
+  
+      <div id="searchInput" class="container  m-auto  ">
+        <div id="rowData" class="row flex flex-wrap justify-start mt-5 ">
+
+
+        </div>
+      </div>
+      <!--start_Main-Meals-->
+      <div id="searchInput" class="container  m-auto  ">
+        <div id="rowData" class="row flex flex-wrap justify-start mt-5 ">
+
+        
+
+        </div>
+      </div>
+      <!--End_Main-Meals-->
+
+
+
+
+
+
+
+
+      </div>
+
+
+</div>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
